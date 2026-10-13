@@ -37,10 +37,11 @@ No PC, no extra downloads, no account.
 ## Requirements
 
 - 64-bit Android phone with Android 10 or newer
-- a Snapdragon phone (Adreno GPU), the game textures need it. On Mali GPUs they won't show up properly
 - about 1.2 GB of free space
 
 I play it on a Galaxy S26 Ultra with Android 16.
+
+Since 1.2 it also works on phones without a Snapdragon chip (MediaTek Dimensity, Exynos, Google Tensor). The game's textures use a format only Snapdragon GPUs can read, so on those phones they are now decoded when the game loads them. If you play on one of them, let me know how it runs.
 
 [![Firefight](screenshots/firefight.png)](screenshots/firefight.png)
 
