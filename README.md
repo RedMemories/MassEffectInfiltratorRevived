@@ -1,0 +1,53 @@
+# Mass Effect Infiltrator Revived
+
+[![Title screen](screenshots/title-screen.png)](screenshots/title-screen.png)
+
+> Mass Effect is a trademark of Electronic Arts. This is a non-commercial fan project, not affiliated with EA or BioWare. The game was pulled from the stores years ago. This repo is my private archive, please don't share the release files.
+
+## What I did
+
+I didn't remake the game and I didn't touch the gameplay. The original engine runs inside a new 64-bit app that translates its old code on the fly, so levels, combat and story are exactly the ones from 2012.
+
+Once it was running, I gave it the treatment it deserves on a modern phone:
+
+- full screen on today's tall displays, no more black bars on the sides
+- native resolution with 4x anti-aliasing, so edges are clean instead of jagged
+- 32-bit color instead of the original 16-bit, the skies and the snow don't have banding anymore
+- sharper textures, especially floors and walls seen at an angle
+- a steady 60 fps
+
+[![Main menu](screenshots/main-menu.png)](screenshots/main-menu.png)
+
+I also cleaned up everything that was left over from EA's online stuff. The game is now fully offline, with no ads and no tracking, and it doesn't ask for any permission. The buttons that sent you to the Play Store or to services that don't exist anymore (More EA Games, Galaxy at War, Info) are gone, and so are the update checks and the EA popups. The in-game store is still there and works with the credits you earn while playing.
+
+The game data is packed inside the APK, so there's nothing to download separately.
+
+[![Frozen city](screenshots/frozen-city.png)](screenshots/frozen-city.png)
+
+[![Geth Juggernaut](screenshots/geth-juggernaut.png)](screenshots/geth-juggernaut.png)
+
+## Install
+
+1. Download the APK from **Releases**
+2. Install it
+3. Open it. The first launch takes a few seconds to unpack the game, after that it starts right away
+
+No PC, no extra downloads, no account.
+
+## Requirements
+
+- 64-bit Android phone with Android 10 or newer
+- a Snapdragon phone (Adreno GPU), the game textures need it. On Mali GPUs they won't show up properly
+- about 1.2 GB of free space
+
+I play it on a Galaxy S26 Ultra with Android 16.
+
+[![Firefight](screenshots/firefight.png)](screenshots/firefight.png)
+
+## Credits
+
+Revived by **RedMemories**
+
+Thanks to the [dynarmic](https://github.com/azahar-emu/dynarmic) project, which makes running the old engine possible.
+
+Original game by IronMonkey Studios and Electronic Arts.
