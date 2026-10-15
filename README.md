@@ -45,10 +45,20 @@ Since 1.2 it also works on phones without a Snapdragon chip (MediaTek Dimensity,
 
 [![Firefight](screenshots/firefight.png)](screenshots/firefight.png)
 
+## PC version
+
+The game now runs on Windows as well, using the same original 2012 engine. Its ARM code is translated to x86-64 on the fly, rendering goes through Direct3D 11, and the Android layer the game depends on was reimplemented natively, so it runs as a regular Windows program with no emulator and no Android underneath.
+
+**Controller support.** Xbox controllers work out of the box: left stick to move, right stick to aim, buttons for cover, biotic powers, cloak and melee, and full menu navigation. The game already contained gamepad controls from its Xperia Play version; the PC build connects them to the controller.
+
+Keyboard and mouse are supported too, with WASD to move and the mouse to aim, while menus use a regular cursor. The game runs full screen at the monitor's native resolution at a steady 60 fps, with the same offline cleanup as the Android version.
+
+Requirements: Windows 10 or 11 (64-bit) and a DirectX 11 graphics card.
+
 ## Credits
 
 Revived by **RedMemories**
 
-Thanks to the [dynarmic](https://github.com/azahar-emu/dynarmic) project, which makes running the old engine possible.
+Thanks to the [dynarmic](https://github.com/azahar-emu/dynarmic) project, which makes running the old engine possible, and to [ANGLE](https://chromium.googlesource.com/angle/angle) and [SDL](https://www.libsdl.org/) for the PC version.
 
 Original game by IronMonkey Studios and Electronic Arts.
